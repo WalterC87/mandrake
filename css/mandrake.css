@@ -1,0 +1,18 @@
+@font-face{font-family:DKAmericain;font-style:basic;src:url("../fonts/DKAmericain.otf")}
+@font-face{font-family:HelveticaLTPro;font-style:basic;src:url("../fonts/HelveticaNeueLTPro-Ex.otf")}
+@font-face{font-family:HelveticaLTStd;font-style:basic;src:url("../fonts/HelveticaNeueLTStd-Roman.otf")}
+body{background-image:url("../img/background_mandrake.png");background-repeat:repeat}
+header{width:100%;}
+header figure,header nav{display:inline-block;vertical-align:top}
+header figure{width:25%;margin-top:25px;margin-left:20px;}
+header figure img{width:70%}
+header nav{margin:0;padding:0;text-align:center;width:100%;}
+header nav ul{height:50px;width:100%;}
+header nav ul li{display:inline-block;vertical-align:top;}
+header nav ul li a div#mnhome,header nav ul li a div#mnabout,header nav ul li a div#mndirectors,header nav ul li a div#mnclients,header nav ul li a div#mnservices,header nav ul li a div#mncontact{background-image:url("../img/btns_sprite.png");background-repeat:no-repeat;height:67px}
+header nav ul li a div#mnhome{background-position:0 0;width:144px}
+header nav ul li a div#mnabout{background-position:-150px 0;width:220px}
+header nav ul li a div#mndirectors{background-position:-380px 0;width:235px}
+header nav ul li a div#mnclients{background-position:-620px 0;width:200px}
+header nav ul li a div#mnservices{background-position:-820px 0;width:212px}
+header nav ul li a div#mncontact{background-position:-1051px 0;width:200px}
