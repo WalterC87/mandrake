@@ -4,15 +4,45 @@
 body{background-image:url("../img/background_mandrake.png");background-repeat:repeat}
 header{width:100%;}
 header figure,header nav{display:inline-block;vertical-align:top}
-header figure{width:25%;margin-top:25px;margin-left:20px;}
+header figure{width:25%;margin-top:50px;margin-left:30px;margin-bottom:5px;}
 header figure img{width:70%}
 header nav{margin:0;padding:0;text-align:center;width:100%;}
-header nav ul{height:50px;width:100%;}
-header nav ul li{display:inline-block;vertical-align:top;}
-header nav ul li a div#mnhome,header nav ul li a div#mnabout,header nav ul li a div#mndirectors,header nav ul li a div#mnclients,header nav ul li a div#mnservices,header nav ul li a div#mncontact{background-image:url("../img/btns_sprite.png");background-repeat:no-repeat;height:67px}
-header nav ul li a div#mnhome{background-position:0 0;width:144px}
-header nav ul li a div#mnabout{background-position:-150px 0;width:220px}
-header nav ul li a div#mndirectors{background-position:-380px 0;width:235px}
-header nav ul li a div#mnclients{background-position:-620px 0;width:200px}
-header nav ul li a div#mnservices{background-position:-820px 0;width:212px}
-header nav ul li a div#mncontact{background-position:-1051px 0;width:200px}
+header nav ul{margin:0;padding:0;width:100%;}
+header nav ul li{display:inline-block;margin-left:15px;margin-right:15px;vertical-align:top;width:12%;}
+header nav ul li a img{width:100%;height:67px}
+.container{height:25px;margin-top:1.5%;width:100%;}
+.container img{width:100%}
+.container .section_title{width:100%;}
+.container .section_title figure{margin:0 auto;padding:0;width:50%}
+.container #home{width:100%;}
+.container #home #telon{background-image:url("../img/mujeres.png");background-repeat:no-repeat;background-size:100%;margin:0 auto;padding:0;padding-top:25px;height:570px;position:absolute;width:95%;z-index:10}
+.container #home #slider{background-color:#333;border-radius:0 0 20px 20px;margin:0 auto;padding:0;height:550px;width:70%}
+.container #about_us,.container #directors,.container #clients,.container #services,.container #contact{margin-top:100px;margin-bottom:10px;height:auto;width:100%}
+.container #about_us #info_about{background-image:url("../img/background_sections.png");background-repeat:repeat;margin-top:15px;margin-bottom:15px;width:100%;}
+.container #about_us #info_about #text-about,.container #about_us #info_about #tv-about{display:inline-block;margin:0 auto;padding:0;vertical-align:middle;width:45%}
+.container #about_us #info_about #text-about{padding:60px;}
+.container #about_us #info_about #text-about p.text_about{font-family:"HelveticaLTStd","Arial";font-size:22px;line-height:35px}
+.container #about_us #info_about #tv-about figure{margin:0 auto;padding:0;width:70%;}
+.container #about_us #info_about #tv-about figure img{width:100%}
+.container #directors #container_directors{margin:0 auto;padding:0;margin-top:30px;height:auto;width:65%;}
+.container #directors #container_directors .director{width:95%;height:750px;}
+.container #directors #container_directors .director .director_header figure,.container #directors #container_directors .director .director_header div{display:inline-block;vertical-align:middle}
+.container #directors #container_directors .director .director_header img{width:90%}
+.container #directors #container_directors .director .director_header figure{width:25%}
+.container #directors #container_directors .director .director_header div{text-align:left;width:70%;}
+.container #directors #container_directors .director .director_header div h2{font-family:"DKAmericain";font-size:70px;letter-spacing:15px;margin:0;padding:0;margin-top:10px}
+.container #directors #container_directors .director .director_header div p{font-family:"HelveticaLTStd","Arial";font-size:30px;margin:0;padding:0}
+.container #directors #container_directors .director .director_display{margin:0 auto;padding:0;height:100px;width:71%;}
+.container #directors #container_directors .director .director_display .tv_directors{background-image:url("../img/directores_tv.png");background-repeat:no-repeat;background-size:100%;margin:0 auto;padding:0;height:678px;width:80%}
+.container #directors #container_directors .director .director_display .tv_back{background-color:#000;margin:0 auto;padding:0;position:relative;top:-623px;height:400px;width:100%;z-index:10;}
+.container #directors #container_directors .director .director_display .tv_back .tv_play{margin:0 auto;padding:0;width:50%;position:relative;text-align:center;top:45%;}
+.container #directors #container_directors .director .director_display .tv_back .tv_play img{width:30%}
+.container #services #info_services{background-image:url("../img/background_sections.png");background-repeat:repeat;margin-top:15px;margin-bottom:15px;height:auto;width:100%;}
+.container #services #info_services img{width:100%}
+.container #services #info_services .img_services,.container #services #info_services #text_services{display:inline-block;vertical-align:top}
+.container #services #info_services .img_services{width:50%;}
+.container #services #info_services .img_services figure{height:100%;width:100%}
+.container #services #info_services #text_services{position:absolute;left:25%;margin:0 auto;padding:0;margin-top:3%;width:90%;z-index:10;}
+.container #services #info_services #text_services p.text-right,.container #services #info_services #text_services p.text-left{display:inline-block;font-family:"HelveticaLTStd","Arial";font-size:23px;line-height:30px;vertical-align:top;width:35%}
+.container #services #info_services #text_services p.text-right{text-align:right;margin-right:2%}
+.container #services #info_services #text_services p.text-left{text-align:left}
