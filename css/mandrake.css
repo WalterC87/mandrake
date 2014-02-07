@@ -1,6 +1,7 @@
 @font-face{font-family:DKAmericain;font-style:basic;src:url("../fonts/DKAmericain.otf")}
 @font-face{font-family:HelveticaLTPro;font-style:basic;src:url("../fonts/HelveticaNeueLTPro-Ex.otf")}
 @font-face{font-family:HelveticaLTStd;font-style:basic;src:url("../fonts/HelveticaNeueLTStd-Roman.otf")}
+@font-face{font-family:DustyRose;font-style:basic;src:url("../fonts/DustyRoseNF.ttf")}
 body{background-image:url("../img/background_mandrake.png");background-repeat:repeat}
 header{width:100%;}
 header figure,header nav{display:inline-block;vertical-align:top}
@@ -15,13 +16,14 @@ header nav ul li a img{width:100%;height:67px}
 .container .section_title{width:100%;}
 .container .section_title figure{margin:0 auto;padding:0;width:50%}
 .container #home{width:100%;}
-.container #home #telon{background-image:url("../img/mujeres.png");background-repeat:no-repeat;background-size:100%;margin:0 auto;padding:0;padding-top:25px;height:570px;position:absolute;width:95%;z-index:10}
-.container #home #slider{background-color:#333;border-radius:0 0 20px 20px;margin:0 auto;padding:0;height:550px;width:70%}
+.container #home #telon{background-image:url("../img/mujeres2_mandrake.png");background-repeat:no-repeat;background-size:100%;margin:0 auto;padding:0;height:590px;position:absolute;width:95%;z-index:10}
+.container #home #slider{margin:0 auto;padding:0;padding-top:50px;width:80%;}
+.container #home #slider #mySlider{background-color:#333;border-radius:0 0 20px 20px;height:500px;width:100%}
 .container #about_us,.container #directors,.container #clients,.container #services,.container #contact{margin-top:100px;margin-bottom:10px;height:auto;width:100%}
 .container #about_us #info_about{background-image:url("../img/background_sections.png");background-repeat:repeat;margin-top:15px;margin-bottom:15px;width:100%;}
 .container #about_us #info_about #text-about,.container #about_us #info_about #tv-about{display:inline-block;margin:0 auto;padding:0;vertical-align:middle;width:45%}
 .container #about_us #info_about #text-about{padding:60px;}
-.container #about_us #info_about #text-about p.text_about{font-family:"HelveticaLTStd","Arial";font-size:22px;line-height:35px}
+.container #about_us #info_about #text-about p.text_about{color:#311b00;font-family:"HelveticaLTStd","Arial";font-size:22px;line-height:35px}
 .container #about_us #info_about #tv-about figure{margin:0 auto;padding:0;width:70%;}
 .container #about_us #info_about #tv-about figure img{width:100%}
 .container #directors #container_directors{margin:0 auto;padding:0;margin-top:30px;height:auto;width:65%;}
@@ -30,19 +32,46 @@ header nav ul li a img{width:100%;height:67px}
 .container #directors #container_directors .director .director_header img{width:90%}
 .container #directors #container_directors .director .director_header figure{width:25%}
 .container #directors #container_directors .director .director_header div{text-align:left;width:70%;}
-.container #directors #container_directors .director .director_header div h2{font-family:"DKAmericain";font-size:70px;letter-spacing:15px;margin:0;padding:0;margin-top:10px}
-.container #directors #container_directors .director .director_header div p{font-family:"HelveticaLTStd","Arial";font-size:30px;margin:0;padding:0}
+.container #directors #container_directors .director .director_header div h2{color:#5f584b;font-family:"DustyRose";font-size:70px;margin:0;padding:0;margin-top:10px}
+.container #directors #container_directors .director .director_header div p{color:#311b00;font-family:"HelveticaLTStd","Arial";font-size:30px;margin:0;padding:0}
 .container #directors #container_directors .director .director_display{margin:0 auto;padding:0;height:100px;width:71%;}
 .container #directors #container_directors .director .director_display .tv_directors{background-image:url("../img/directores_tv.png");background-repeat:no-repeat;background-size:100%;margin:0 auto;padding:0;height:678px;width:80%}
 .container #directors #container_directors .director .director_display .tv_back{background-color:#000;margin:0 auto;padding:0;position:relative;top:-623px;height:400px;width:100%;z-index:10;}
-.container #directors #container_directors .director .director_display .tv_back .tv_play{margin:0 auto;padding:0;width:50%;position:relative;text-align:center;top:45%;}
+.container #directors #container_directors .director .director_display .tv_back .tv_play{margin:0 auto;padding:0;width:50%;position:relative;text-align:center;top:40%;}
 .container #directors #container_directors .director .director_display .tv_back .tv_play img{width:30%}
+.container #directors #letrero{margin:0 auto;padding:0;margin-top:100px;height:auto;text-align:center;width:85%;}
+.container #directors #letrero img{width:100%}
+.container #directors #letrero figure{width:100%}
 .container #services #info_services{background-image:url("../img/background_sections.png");background-repeat:repeat;margin-top:15px;margin-bottom:15px;height:auto;width:100%;}
 .container #services #info_services img{width:100%}
 .container #services #info_services .img_services,.container #services #info_services #text_services{display:inline-block;vertical-align:top}
 .container #services #info_services .img_services{width:50%;}
 .container #services #info_services .img_services figure{height:100%;width:100%}
-.container #services #info_services #text_services{position:absolute;left:25%;margin:0 auto;padding:0;margin-top:3%;width:90%;z-index:10;}
-.container #services #info_services #text_services p.text-right,.container #services #info_services #text_services p.text-left{display:inline-block;font-family:"HelveticaLTStd","Arial";font-size:23px;line-height:30px;vertical-align:top;width:35%}
+.container #services #info_services #text_services{position:absolute;left:25%;margin:0 auto;padding:0;margin-top:1.5%;width:74%;z-index:10;}
+.container #services #info_services #text_services p.text-right,.container #services #info_services #text_services p.text-left{color:#311b00;display:inline-block;font-family:"HelveticaLTStd","Arial";font-size:20px;line-height:30px;vertical-align:top;width:35%}
 .container #services #info_services #text_services p.text-right{text-align:right;margin-right:2%}
 .container #services #info_services #text_services p.text-left{text-align:left}
+.container #contact{padding-bottom:50px;}
+.container #contact img{width:100%}
+.container #contact #info_contact{background-image:url("../img/background_sections.png");background-repeat:repeat;margin-top:15px;padding-bottom:50px;height:auto;width:100%;}
+.container #contact #info_contact #map_contact,.container #contact #info_contact #text_contact,.container #contact #info_contact #img_contact{display:inline-block;vertical-align:top}
+.container #contact #info_contact #map_contact{border-radius:15px;margin-top:2.5%;margin-left:2%;width:44%;height:350px}
+.container #contact #info_contact #text_contact{margin-top:1%;padding-left:40px;width:22%;}
+.container #contact #info_contact #text_contact .contact_adress h4,.container #contact #info_contact #text_contact .contact_productora h4,.container #contact #info_contact #text_contact .contact_director h4{font-size:18px;color:#311b00;margin:0;padding:0}
+.container #contact #info_contact #text_contact .contact_adress p,.container #contact #info_contact #text_contact .contact_productora p,.container #contact #info_contact #text_contact .contact_director p{color:#311b00;line-height:22px;margin-top:5px;margin-bottom:25px;padding:0}
+.container #contact #info_contact #img_contact{width:25%;height:50px;}
+.container #contact #info_contact #img_contact img{width:87%}
+.container #contact #info_contact #img_contact figure{padding-left:13.4%;text-align:right;width:100%}
+.container #social_networks{margin-top:5px;padding-bottom:30px;width:100%;text-align:center;}
+.container #social_networks ul{margin:0 auto;padding:0;width:50%;}
+.container #social_networks ul li{cursor:pointer;display:inline-block;vertical-align:top;width:75px;height:65px;}
+.container #social_networks ul li.sn_facebook,.container #social_networks ul li.sn_twitter,.container #social_networks ul li.sn_vimeo,.container #social_networks ul li.sn_youtube{background-image:url("../img/networks.png");background-repeat:no-repeat;background-size:400%}
+.container #social_networks ul li.sn_facebook{background-position:0 0}
+.container #social_networks ul li.sn_facebook:hover{background-position:0 -70px}
+.container #social_networks ul li.sn_twitter{background-position:-80px 0}
+.container #social_networks ul li.sn_twitter:hover{background-position:-80px -70px}
+.container #social_networks ul li.sn_vimeo{background-position:-158px 0}
+.container #social_networks ul li.sn_vimeo:hover{background-position:-158px -70px}
+.container #social_networks ul li.sn_youtube{background-position:-230px 0}
+.container #social_networks ul li.sn_youtube:hover{background-position:-230px -70px}
+.fixed{background-image:url("../img/background_mandrake.png");background-repeat:repeat;width:100%;position:fixed;top:0;left:1px;z-index:9999}

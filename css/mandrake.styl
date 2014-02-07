@@ -12,6 +12,13 @@
 	font-family HelveticaLTStd
 	font-style basic
 	src url('../fonts/HelveticaNeueLTStd-Roman.otf')
+@font-face
+	font-family DustyRose
+	font-style basic
+	src url('../fonts/DustyRoseNF.ttf')
+
+txt-color = #311b00
+dir-color = #5f584b
 
 body
 	background-image url('../img/background_mandrake.png')
@@ -69,24 +76,26 @@ header
 	#home
 		width 100%
 		#telon
-			background-image url('../img/mujeres.png')
+			background-image url('../img/mujeres2_mandrake.png')
 			background-repeat no-repeat
 			background-size 100%
 			margin 0 auto
 			padding 0
-			padding-top 25px
-			height 570px
+			height 590px
 			position absolute
 			width 95%
 			z-index 10
 
 		#slider
-			background-color #333
-			border-radius 0 0 20px 20px
 			margin 0 auto
 			padding 0
-			height 550px
-			width 70%
+			padding-top 50px
+			width 80%
+			#mySlider
+				background-color #333
+				border-radius 0 0 20px 20px
+				height 500px
+				width 100%
 
 	#about_us, #directors, #clients, #services, #contact
 		margin-top 100px
@@ -113,6 +122,7 @@ header
 				padding 60px
 
 				p.text_about
+					color txt-color
 					font-family "HelveticaLTStd", "Arial"
 					font-size 22px
 					line-height 35px
@@ -150,14 +160,15 @@ header
 						width 70%
 
 						h2
-							font-family "DKAmericain"
+							color dir-color
+							font-family "DustyRose"
 							font-size 70px
-							letter-spacing 15px
 							margin 0
 							padding 0
 							margin-top 10px
 
 						p
+							color txt-color
 							font-family "HelveticaLTStd", "Arial"
 							font-size 30px
 							margin 0
@@ -194,10 +205,24 @@ header
 							width 50%
 							position relative
 							text-align center
-							top 45%
+							top 40%
 
 							img
 								width 30%
+		
+		#letrero
+			margin 0 auto
+			padding 0
+			margin-top 100px
+			height auto
+			text-align center
+			width 85%
+
+			img
+				width 100%
+
+			figure
+				width 100%
 
 	#services
 		#info_services
@@ -225,14 +250,15 @@ header
 				left 25%
 				margin 0 auto
 				padding 0
-				margin-top 3%
-				width 90%
+				margin-top 1.5%
+				width 74%
 				z-index 10
 
 				p.text-right, p.text-left
+					color txt-color
 					display inline-block
 					font-family "HelveticaLTStd", "Arial"
-					font-size 23px
+					font-size 20px
 					line-height 30px
 					vertical-align top
 					width 35%
@@ -244,4 +270,109 @@ header
 				p.text-left
 					text-align left
 
+	#contact
+		padding-bottom 50px
+		img
+			width 100%
+		#info_contact
+			background-image url('../img/background_sections.png')
+			background-repeat repeat
+			margin-top 15px
+			padding-bottom 50px
+			height auto
+			width 100%
+
+			#map_contact,#text_contact,#img_contact
+				display inline-block
+				vertical-align top
+
+			#map_contact
+				border-radius 15px
+				margin-top 2.5%
+				margin-left 2%
+				width 44%
+				height 350px
+
+			#text_contact
+				margin-top 1%
+				padding-left 40px
+				width 22%
+
+				.contact_adress, .contact_productora, .contact_director
+					h4 
+						font-size 18px
+						color txt-color
+						margin 0 
+						padding 0
+
+					p
+						color txt-color
+						line-height 22px
+						margin-top 5px
+						margin-bottom 25px
+						padding 0
+
+			#img_contact
+				width 25%
+				height 50px
+
+				img
+					width 87%
+				figure
+					padding-left 13.4%
+					text-align right
+					width 100%
+
+	#social_networks
+		margin-top 5px
+		padding-bottom 30px
+		width 100%
+		text-align center
+
+		ul 
+			margin 0 auto
+			padding 0
+			width 50%
+
+			li
+				cursor pointer
+				display inline-block
+				vertical-align top
+				width 75px
+				height 65px
+
+				&.sn_facebook, &.sn_twitter, &.sn_vimeo, &.sn_youtube
+					background-image url('../img/networks.png')
+					background-repeat no-repeat
+					background-size 400%
 				
+				&.sn_facebook
+					background-position 0 0
+				&.sn_facebook:hover
+					background-position 0 -70px
+
+				&.sn_twitter
+					background-position -80px 0
+				&.sn_twitter:hover
+					background-position -80px -70px
+
+				&.sn_vimeo
+					background-position -158px 0
+				&.sn_vimeo:hover
+					background-position -158px -70px
+
+				&.sn_youtube
+					background-position -230px 0
+				&.sn_youtube:hover
+					background-position -230px -70px
+
+.fixed 
+	background-image url('../img/background_mandrake.png')
+	background-repeat repeat
+	width 100%
+	position fixed
+	top 0
+	left 1px
+	z-index 9999
+				
+						

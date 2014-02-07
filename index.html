@@ -16,12 +16,12 @@
 			<div></div>
 			<ul>
 				<!--li> <a href="#home"><div id="mnhome"></div></a></li-->
-				<li><a href="#home"><img src="img/mn_home.png" alt=""></a> </li>
-				<li> <a href="#about_us"><img src="img/mn_nosotros.png" alt=""> </a></li>
-				<li> <a href="#directors"><img src="img/mn_directores.png" alt=""></a> </li>
-				<li> <a href="#clients"><img src="img/mn_clientes.png" alt=""> </a></li>
-				<li> <a href="#services"><img src="img/mn_servicios.png" alt=""> </a></li>
-				<li> <a href="#contact"><img src="img/mn_contacto.png" alt=""></a></li>
+				<li><a href="#home" class="mn"><img src="img/mn_home.png" alt=""></a> </li>
+				<li> <a href="#about_us" class="mn"><img src="img/mn_nosotros.png" alt=""> </a></li>
+				<li> <a href="#directors" class="mn"><img src="img/mn_directores.png" alt=""></a> </li>
+				<li> <a href="#clients" class="mn"><img src="img/mn_clientes.png" alt=""> </a></li>
+				<li> <a href="#services" class="mn"><img src="img/mn_servicios.png" alt=""> </a></li>
+				<li> <a href="#contact" class="mn"><img src="img/mn_contacto.png" alt=""></a></li>
 			</ul>
 		</nav>
 	</header>
@@ -30,7 +30,11 @@
 		<section id="home">
 
 			<div id="telon"></div>
-			<div id="slider"></div>
+			<div id="slider">
+				<div id="mySlider">
+					
+				</div>
+			</div>
 		
 		</section>
 
@@ -131,6 +135,12 @@
 
 			</div>
 
+			<div id="letrero">
+				<figure>
+					<img src="img/letrero.png" alt=""-->
+				</figure>
+			</div>
+
 		</section>
 
 		<section id="clients">
@@ -167,10 +177,59 @@
 					<img src="img/contacto.png" alt="">
 				</figure>
 			</div>
+
+			<div id="info_contact">
+				<div id="map_contact"></div>
+				<div id="text_contact">
+					<div class="contact_adress">
+						<h4>Oficinas Películas MANDRAKE</h4>
+						<p>
+							Diagonal 6 12-42, Zona 10, <br> 
+							Design Center, Torre 1, oficina 1301 <br>	
+							502-2261 8938 <br>
+							502-2257 6938 <br>
+							info@peliculasmandrake.com
+						</p>
+					</div>
+					<div class="contact_productora">
+						<h4>Paula Barriga</h4>
+						<p>
+							Productora Ejecutiva <br>
+							502 - 4739 1940 <br>
+							paula@peliculasmandrake.com
+						</p>
+					</div>
+					<div class="contact_director">
+						<h4>Miguel Docal</h4>
+						<p>
+							Director <br>
+							502 - 4739 1951 <br>
+							miguel@peliculasmandrake.com
+						</p>
+					</div>
+				</div>
+				<div id="img_contact">
+					<figure>
+						<img src="img/contacto_madrake.png" alt="">
+					</figure>
+				</div>
+			</div>
+		</section>
+
+		<section id="social_networks">
+			<ul>
+				<li class="sn_facebook"><a href="#"></a></li>
+				<li class="sn_twitter"><a href="#"></a></li>
+				<li class="sn_vimeo"><a href="#"></a></li>
+				<li class="sn_youtube"><a href="#"></a></li>
+			</ul>
 		</section>
 
 	</section>
 	
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyCIxcexR7KN0-mMjoJi2A0EysJexlfHb5g&sensor=false"></script>
+	<script src="js/mapa.js"></script>
+
 </body>
 </html>
