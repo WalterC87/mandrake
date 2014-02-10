@@ -55,3 +55,11 @@ function onScroll(e) {
 }
 
 document.addEventListener('scroll', onScroll);
+
+
+$(window).load(function (){
+	$('.flexslider').flexslider({
+		animation : "slide"
+	})
+})
+
